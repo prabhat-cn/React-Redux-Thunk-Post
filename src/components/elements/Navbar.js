@@ -17,15 +17,15 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="!#">
+              <Link class="nav-link" to="/">
                 Posts
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link" href="!#">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
           <Link to="/addPost" className="btn btn-dark">
             Add Posts
