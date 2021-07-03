@@ -1,4 +1,4 @@
 This project was bootstrapped [React-Redux-Thunk-Post
-](https://github.com/facebook/create-react-app).
+](https://redux-thunk-post.netlify.app/).
 
 
