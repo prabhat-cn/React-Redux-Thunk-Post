@@ -7,13 +7,13 @@ const Post = () => {
   const dispatch = useDispatch();
   const post = useSelector((state) => state.post.post);
   const { id } = useParams();
-  useEffect(() => {
-    loadPost();
-  }, []);
 
   const loadPost = () => {
     dispatch(getPost(id));
   };
+  useEffect(() => {
+    loadPost();
+  }, [loadPost]);
 
   if (!post) {
     return <h1>loading..</h1>;
