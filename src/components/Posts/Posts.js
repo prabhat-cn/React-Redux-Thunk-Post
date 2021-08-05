@@ -17,8 +17,8 @@ const Posts = () => {
 
   return (
     <div className="row">
-      {posts.map((postItem) => (
-        <PostCard postItem={postItem} />
+      {posts.map((postItem, index) => (
+        <PostCard key={index} postItem={postItem} />
       ))}
     </div>
   );
